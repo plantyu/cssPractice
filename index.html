@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-decoration: none;
+            font-family: 微軟正黑體, arial;          
+        }
+
+        header{
+            margin: 10px 10px;   
+            font-size: 20px; 
+        }
+        ul{
+            display: inline-block;
+        }
+        ul > li{
+            display: inline;
+        }
+        .ulR{
+            float: right;  
+            display: inline;
+            padding: 20px 20px; 
+        }
+        li > a{
+            color: 	#20454a;
+        }
+        li > a:hover{
+            color:	#b89072;
+        }
+        .banner {
+            width: 100%; 
+        }
+        .banner img{
+            width: 100%;
+        }
+        .title{
+            display: inline;
+            font-size: 14px;
+            width: 100%;
+        } 
+        .left{
+            display: inline-block;
+            background-color: #20454a;
+            color:aliceblue;
+            height: 60px;
+            width: 75%;
+            padding: 15px 2px;
+            clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+            text-align: center;
+        }
+        .right{
+            display: inline-block;
+            background-color: #b89072;
+            color:aliceblue;
+            height: 40px;
+            width: 25%;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+            padding: 20px 2px;
+            text-align: center;
+        }
+
+        .content{
+            display: flex;
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .item{
+            width: 360px;
+            padding: 10px 10px;
+            text-align: center;
+        }
+        .item > p{
+            text-align: left;
+        }
+        footer {
+            font-size: 10px;
+            background-color: #20454a;;
+        }
+        footer > ul{
+            padding: 10px; 
+        }
+        footer > ul > li{
+            font-size: 14px;
+            padding: 5px 20px;
+            color: aliceblue;
+            display: block;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+            <ul>
+                <li><img src="logo60x303.png" alt="logo"></li>
+            </ul>
+            <ul class="ulR">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="aboutUs.html">公司簡介</a></li>
+                <li><a href="cellProducts.html">細胞產品</a></li>
+                <li><a href="inspectionService.html">檢驗服務</a></li>
+                <li><a href="laboratory.html">實驗室</a></li>
+            </ul>
+    </header>
+
+    
+    <div class="banner">
+        <img src="生長因子瓶子_(原檔)210121 (1).jpg" alt="banner Img">
+        <div class="title left">
+
+            <h2 class="font-h2">細胞生產平台：提供全方位細胞之分離、擴增、檢驗、儲存與應用。</h2>
+            <h2 class="font-h2">健康管理平台：結合多家健康管理醫療機構，提供全方位健康管理。</h2>
+        </div>
+        <div class="title right">
+            <h2 class="font-h2">個人化醫療服務</h2>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div class="item">
+            <img src="https://picsum.photos/100/100?random=7" alt="">
+            <h2 class="font-h2">細胞產品</h2>
+            <p>專業儀器進行組織採集、細胞分離及純化、增生和產品凍存等步驟，生產「免疫細胞」、「間質幹細胞」及「生長因子」等多樣產品。</p>
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/100/100?random=7" alt="">
+            <h2 class="font-h2">檢驗服務</h2>
+            <p>與世界知名大廠輝瑞、拜耳、諾華採用相同的檢測機器，只要五毫升血液，即可進行體內幹細胞濃度分析</p>
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/100/100?random=7" alt="">
+            <h2 class="font-h2">實驗室</h2>
+            <p>參考「聯電模式」，興建符合GTP細胞臨床實驗室，提供台灣無力建置GTP實驗室的細胞治療中小企業或學術單位使用，共同發展台灣再生醫療產業。</p>
+        </div>
+    </div>
+
+    
+    <footer>
+        <ul>
+            <img src="logoF173x120.png" alt="logo">
+
+        </ul>
+        <ul>    
+            <li>電話：(02)2883-6008
+            <li>傳真：(02)2880-1508</li>
+            <li>信箱：service@tesia.com.tw</li>
+            <li>地址：台北市士林區中山北路5段512號2樓</li>
+            <li>統編：82811891</li>
+        </ul>
+    </footer>
+</body>
+</html>
